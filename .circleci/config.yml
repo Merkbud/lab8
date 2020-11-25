@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/acc_lab5/ProductCatalog_v1-master
+    working_directory: C:\Users\White\OneDrive\School\Intro to Software Engineering\F2020\Labs\Lab 8\acc_lab5\acc_lab5\ProductCatalog_v1-master
     docker:
       - image: circleci/android:api-28-alpha
     environment:
